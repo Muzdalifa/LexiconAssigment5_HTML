@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    background-color: white;
+}
+body{
+    font-family: sans-serif;
+    width: 1024px;
+    margin: 0px auto 0px auto;  
+    background-color: rgba(37, 83, 11, 0.103);
+}
+
+header, h1{
+    margin : 0;
+}
+header{
+width: 100%;
+background-color: white;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: baseline;
+color: burlywood;
+}
+.nav-link{
+    flex: auto;
+}
+.nav-link ul{
+    list-style-type:none;
+}
+.nav-link ul li{
+    display: inline;
+    padding-left: 50px;
+}
+/* #login{
+    /* flex-basis: 1;
+    float: right; 
+    
+} */
+a:link {
+    text-decoration: none;
+    color: burlywood ;
+  }
+

@@ -8,7 +8,7 @@ body{
     font-family: sans-serif;
     width: 1024px;
     margin: 0px auto 0px auto;  
-    background-color: rgba(37, 83, 11, 0.103);
+    background-color: rgba(37, 83, 11, 0.103); /*---tO BE DELETED--->*/
 }
 
 header, h1{
@@ -42,4 +42,33 @@ a:link {
     text-decoration: none;
     color: burlywood ;
   }
+
+main{
+    width: 70%;
+    background-color: #80808000;
+    display: inline-block;
+    padding: 20px;
+}
+#main-heading{
+/* background-color: hotpink; */
+}
+#article-left{
+    display:inline-block;
+    width: 50%;
+    background-color: lemonchiffon;
+    margin-right: 4px;
+}
+#article-right{
+display: inline-block;
+width: 50%;
+background-color: lemonchiffon;
+}
+aside{
+float: right;
+background-color: honeydew;
+width:30%;
+padding: 20px;
+}
+
+
 

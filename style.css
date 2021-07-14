@@ -22,7 +22,6 @@ justify-content: space-between;
 align-items: baseline;
 /* color: burlywood; */
 color:white;
-
 }
 .nav-link{
     flex: auto;
@@ -38,16 +37,13 @@ color:white;
 a:link {
     color : white;
     text-decoration: none;
-  }
-  
+  }  
   a:visited {
     color: cyan;
-  }
-  
+  }  
   a:hover {
     color: white;
-  }
-  
+  }  
   a:active {
     color:white;
   } 
@@ -72,7 +68,6 @@ a:link {
     "sub-text sub-text"
     "article1 article2";
 }
-
 .main-header {grid-area: main-header;}
 .sub-text {grid-area: sub-text;}
 .article1 {grid-area: article1;}
@@ -109,7 +104,6 @@ a:link {
 line-height: 30px;
 }
 
-
 /* login page */
 
 .login-main{
@@ -120,9 +114,7 @@ line-height: 30px;
     "login-header"
     "form";
     justify-content: center;
-
 }
-
 .form {
     grid-area: form; 
     padding: 10px 0px 50px 0px;

@@ -37,26 +37,20 @@ color:white;
 
 a:link {
     color : white;
+    text-decoration: none;
   }
   
   a:visited {
-    background-color: cyan;
+    color: cyan;
   }
   
   a:hover {
-    background-color: white;
+    color: white;
   }
   
   a:active {
     color:white;
   } 
-  
-
-a:link {
-    text-decoration: none;
-    color:white;
-    color: burlywood ;
-  }
 
 .body{
     display: grid;

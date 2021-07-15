@@ -1,26 +1,18 @@
-*{
-    box-sizing: border-box;
-}
-html{
-    background-color: white;
-}
 body{
     font-family: sans-serif;
     width: 1024px;
     margin: 0px auto 0px auto;  
 }
-
 header, h1{
     margin : 0;
 }
 header{
-width: 100%;
+
 background-color: rgb(40, 40, 62);
 display: flex;
 flex-direction: row;
 justify-content: space-between;
 align-items: baseline;
-/* color: burlywood; */
 color:white;
 }
 .nav-link{
@@ -109,11 +101,11 @@ line-height: 30px;
 .login-main{
     grid-area: main / span 3;
      display: grid;
-    /*grid-template-columns: auto ; */
     grid-template-areas: 
     "login-header"
     "form";
     justify-content: center;
+    background-color: rgb(115 115 155 / 63%);
 }
 .form {
     grid-area: form; 
